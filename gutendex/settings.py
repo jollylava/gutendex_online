@@ -154,7 +154,7 @@ STATIC_ROOT = env('STATIC_ROOT', default=BASE_DIR / "staticfiles")
 
 # User-uploaded files
 MEDIA_URL = '/media/'
-MEDIA_ROOT = env('MEDIA_ROOT') 
+MEDIA_ROOT = env('MEDIA_ROOT', default=BASE_DIR / "media")
 
 
 # Users for error reporting
