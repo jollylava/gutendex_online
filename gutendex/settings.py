@@ -146,14 +146,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
-STATIC_ROOT = env('STATIC_ROOT')
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATIC_ROOT = env('STATIC_ROOT')
+#STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 
 # User-uploaded files
-MEDIA_ROOT = env('MEDIA_ROOT')
 MEDIA_URL = '/media/'
+MEDIA_ROOT = env('MEDIA_ROOT') 
 
 
 # Users for error reporting

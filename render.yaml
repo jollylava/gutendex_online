@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: gutendex
+    env: python
+    buildCommand: |
+      pip install -r requirements.txt
+      python manage.py collectstatic --noinput
+      python manage.py migrate
+    startCommand: gunicorn gutendex.wsgi
+    plan: free
+    envVars:
+      - key: DJANGO_SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: "False"
+      - key: ALLOWED_HOSTS
+        value: "gutendex.onrender.com"
+      - key: DATABASE_URL
+        fromDatabase:
+          name: gutendex-db
+          property: connectionString
+
+databases:
+  - name: gutendex-db
+    plan: free
+
