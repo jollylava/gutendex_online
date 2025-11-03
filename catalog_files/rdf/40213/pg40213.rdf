@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:cc="http://web.resource.org/cc/"
+>
+  <pgterms:ebook rdf:about="ebooks/40213">
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-07-11</dcterms:issued>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">228</pgterms:downloads>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/40484">
+        <pgterms:name>Galois, Évariste</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1811</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1832</pgterms:deathdate>
+        <pgterms:alias>Galois, Evariste</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/%C3%89variste_Galois"/>
+      </pgterms:agent>
+    </dcterms:creator>
+    <marcrel:aui>
+      <pgterms:agent rdf:about="2009/agents/40486">
+        <pgterms:name>Picard, Emile</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1856</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1941</pgterms:deathdate>
+        <pgterms:alias>Picard, Émile</pgterms:alias>
+        <pgterms:alias>Picard, Ch.-E. (Charles Emile)</pgterms:alias>
+        <pgterms:alias>Picard, Charles Emile</pgterms:alias>
+        <pgterms:webpage rdf:resource="https://en.wikipedia.org/wiki/%C3%89mile_Picard"/>
+      </pgterms:agent>
+    </marcrel:aui>
+    <pgterms:marc010>06034399</pgterms:marc010>
+    <dcterms:title>Œuvres mathématiques d'Évariste Galois</dcterms:title>
+    <dcterms:alternative>Oeuvres mathématiques d'Évariste Galois</dcterms:alternative>
+    <dcterms:tableOfContents>I. Articles publiés par Galois: Demonstration d'un théorème sur les fractions continues périodiques. Notes sur quelques points d'analyse. Analyse d'un mémoire sur la résolution algébrique des equations. Note sur la résolution des équations numériques. Sur la théorie des nombres -- II. Oeuvres posthumes. Lettre à Auguste Chevalier. Mémoire sur les conditions de résolubilité des équations par radicaux. Des équations primitives qui sont solubles par radicaux (fragment).</dcterms:tableOfContents>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N6af465e53fea486a93de5b42644176b5">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">fr</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Ncfbca72ee2a24aa4866ee88fe729ea14">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Mathematics</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N6185c8aaa6374ea68b805b9c2443842c">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>QA</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N1793b4d68556481bab262f4f7940e7fa">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N7209fbb6acd4449ba02caa1895d80d85">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Mathematics</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N2cef8daaad654e07be0b14ca0b3dad93">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>FR Sciences et Techniques</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/40213/40213-pdf.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/40213"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">727389</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-11T15:44:57</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9e693c06fbd240b5a2df3eca4827deca">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/40213.rdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/40213"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10929</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-16T10:12:30.959158</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf604c81b9f7d44afa4f563e3fa1644ba">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/40213/40213-t/40213-t.tex">
+        <dcterms:isFormatOf rdf:resource="ebooks/40213"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">193264</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-11T17:21:29</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N90e5c3750b3d43ee863fa9c6b9fa6586">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.tex</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/40213/pg40213.cover.medium.jpg">
+        <dcterms:isFormatOf rdf:resource="ebooks/40213"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18884</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-16T10:12:30.884157</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N73bd680ae8a44d95a6edc41010481571">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/40213/pg40213.cover.small.jpg">
+        <dcterms:isFormatOf rdf:resource="ebooks/40213"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4167</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-16T10:12:30.639153</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N207ebf92a14b456fa96d8c38211729fb">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/40213/40213-pdf.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/40213"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">648628</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-11T15:44:57</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne0f0c5044f5d466bafa2cba56dc2c6a4">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value>application/octet-stream</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc22486a6f119499bbdf3c1ad28d9ef39">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/40213/40213-t.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/40213"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">667797</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-11T17:21:29</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb146c448b9a64ab9b4f9254d0814f298">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value>application/octet-stream</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na91c3aa16a9243bd9d7cedb06ca7890c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/%C3%89mile_Picard">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/%C3%89variste_Galois">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>
