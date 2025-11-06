@@ -3,7 +3,7 @@ from django.views.generic import TemplateView
 from rest_framework import routers
 
 from books import views     # <--- BookViewSet is here
-from .views import proxy    # <--- proxy imported separately
+from books.views import proxy    # <--- proxy imported separately
 
 
 router = routers.DefaultRouter()
