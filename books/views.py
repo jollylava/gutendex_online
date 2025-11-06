@@ -4,6 +4,21 @@ from rest_framework import exceptions as drf_exceptions, viewsets
 
 from .models import *
 from .serializers import *
+import requests
+from django.http import HttpResponse, JsonResponse
+
+def proxy(request):
+    url = request.GET.get("url")
+
+    if not url:
+        return JsonResponse({"error": "Missing ?url="}, status=400)
+
+    try:
+        response = requests.get(url, timeout=20)
+        content_type = response.headers.get("content-type", "text/plain")
+        return HttpResponse(response.content, content_type=content_type)
+    except Exception as e:
+        return JsonResponse({"error": str(e)}, status=500)
 
 
 class BookViewSet(viewsets.ModelViewSet):
